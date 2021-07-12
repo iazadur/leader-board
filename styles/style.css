@@ -100,3 +100,47 @@ hr{
     text-decoration: none;
     margin: 0;
 }
+/* -----------------------
+    Courses Style
+----------------------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+
+}
+.course{
+    padding: 10px;
+    margin: 10px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(70, 3, 3, 0.05));
+    /* box-shadow:rgba(70, 3, 3, 0.9); */
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color:#FFC014
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+
+/* -------------------------
+        Media  Queries
+------------------------ */
+
+/* Mobile Device */
+
+@media only screen and (max-width:688px) {
+    
+}
