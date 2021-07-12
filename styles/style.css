@@ -21,13 +21,17 @@ body{
 }
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container{
     background-color: #ffffff;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 
 
@@ -95,7 +99,4 @@ hr{
     color: #562EFF;
     text-decoration: none;
     margin: 0;
-}
-.blog-info p{
-    
 }
