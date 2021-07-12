@@ -33,6 +33,7 @@ main{
 
 hr{
     border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
 }
 /* top players style  */
 
@@ -60,4 +61,41 @@ hr{
 .player-name{
     margin-left: 16px;
     font-size: 18px;
+}
+
+/* ------------------------
+    Top blogs styles 
+-------------------------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+
+.blog .thumbnail img{
+    width: 117px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+    margin: 3px 0px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+    margin: 0px;
+}
+.blog-author a{
+    color: #562EFF;
+    text-decoration: none;
+    margin: 0;
+}
+.blog-info p{
+    
 }
