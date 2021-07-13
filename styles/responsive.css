@@ -1,0 +1,76 @@
+
+/* -------------------------
+        Media  Queries
+------------------------ */
+
+/* Mobile Device */
+
+@media only screen and (max-width:688px) {
+
+
+    header{
+        height: auto;
+    }
+
+    header nav{
+        width: 100%;
+    }
+.navbar{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.right-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    .blog{
+        align-items: center;
+    }
+}
+/* Tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    header nav{
+        width: 100%;
+    }
+    .navbar{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-nav{
+        flex: 30%;
+        justify-content: center;
+    }
+    .right-nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex: 60%;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .players, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    .blog{
+        align-items: center;
+    }
+}
