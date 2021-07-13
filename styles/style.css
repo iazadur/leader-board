@@ -18,6 +18,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
 main{
     display: flex;
@@ -172,4 +173,13 @@ header nav{
 .fa-star.empty{
     color: #AEAEAE;
 }
-
+.course-duration{
+    background: #FEE5DF;
+    border-radius: 14.6913px;
+    padding: 2px 10px;
+    color: #FF4A60;
+}
+.course-author{
+    font-size: 14px;
+    color: #ED6B4F;
+}
